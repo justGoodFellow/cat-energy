@@ -1,0 +1,25 @@
+{
+	"name": "cat-energy",
+	"description": "«Учебный проект - Кэт энерджи»",
+	"author": "Sergey Bodnaryuk <s.bodnaryuk@gmail.com>",
+	"homepage": "https://github.com/justGoodFellow/cat-energy",
+	"private": true,
+	"engines": {
+		"node": "14.18.1"
+	},
+	"scripts": {
+		"editorconfig": "editorconfig-cli",
+		"stylelint": "stylelint .",
+		"test": "npm run editorconfig"
+	},
+	"editorconfig-cli": [
+		"*.json",
+		"source/*.html"
+	],
+	"devDependencies": {
+		"@htmlacademy/editorconfig-cli": "^1.0.0",
+		"stylelint": "^13.13.1",
+		"stylelint-config-htmlacademy": "^0.1.11"
+	},
+	"dependencies": {}
+}
